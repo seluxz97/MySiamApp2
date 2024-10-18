@@ -10,10 +10,13 @@
       background-color: #f0f8f5;
       color: #333;
       text-align: center;
+      background-size: 400% 400%; /* Fondo cuadruplicado */
+      background-image: linear-gradient(135deg, #d4f7d8, #a6d8a8);
     }
 
     h1 {
       color: #2a7d46;
+      font-size: 24px;
     }
 
     .calendar-container {
@@ -29,6 +32,7 @@
       width: 100%;
       border-collapse: collapse;
       margin-top: 10px;
+      font-size: 12px;
     }
 
     th, td {
@@ -40,6 +44,7 @@
     th {
       background-color: #2a7d46;
       color: white;
+      font-size: 12px;
     }
 
     td {
@@ -67,6 +72,7 @@
       padding: 10px 20px;
       background-color: #2a7d46;
       color: white;
+      font-size: 12px;
       border: none;
       border-radius: 5px;
       cursor: pointer;
@@ -81,6 +87,7 @@
       margin-top: 10px;
       color: #2a7d46;
       font-weight: bold;
+      font-size: 12px;
     }
 
     .month-controls {
@@ -91,6 +98,7 @@
     }
 
     .month-controls button {
+      font-size: 12px;
       margin: 0 10px;
     }
 
@@ -106,7 +114,9 @@
   </style>
 </head>
 <body>
-  <img id="logo" src="https://github.com/seluxz97/MySiamApp2/blob/main/WhatsApp%20Image%202024-09-20%20at%2019.04.42.jpeg" alt="Logo">
+  <!-- Actualiza el src de la imagen con el enlace directo desde GitHub -->
+  <img id="logo" src="https://raw.githubusercontent.com/seluxz97/MySiamApp2/refs/heads/main/WhatsApp Image 2024-09-20 at 19.04.42.jpeg" alt="Logo">
+  
   <h1>Reservar y Cancelar Fechas en el Calendario</h1>
   
   <div class="calendar-container">
@@ -236,4 +246,3 @@
   </script>
 </body>
 </html>
-
